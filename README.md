@@ -24,28 +24,18 @@ This repo also serves as my **portfolio project** while preparing for:
 
 ---
 
-## 📂 Repository Structure  
+## 📂 Repository Structure
 
+```text
 hotel-analytics-lab/
-│
-├── data/ # Raw and cleaned datasets
-│ └── hotel_bookings.csv
-│
-├── powerbi/ # Power BI dashboards (.pbix)
-│
-├── sql/ # SQL scripts and queries
-│
-├── stats/ # Jupyter notebooks & Python scripts for statistics
-│
-├── python/ # General Python utilities & experiments
-│
-└── README.md # Project documentation
+├── data/           # Raw and cleaned datasets
+│   └── hotel_bookings.csv
+├── powerbi/        # Power BI dashboards (.pbix)
+├── sql/            # SQL scripts and queries
+├── stats/          # Jupyter notebooks & Python scripts for statistics
+├── python/         # General Python utilities & experiments
+└── README.md       # Project documentation
 
-yaml
-Copy
-Edit
-
----
 
 ## 🎯 Learning Goals  
 
@@ -62,12 +52,10 @@ Edit
 1. Clone the repo  
    ```bash
    git clone https://github.com/akhil10may/hotel-analytics-lab.git
-2. Install requirements (Python environment):
 
-bash
-Copy
-Edit
+2. Install requirements (Python environment):
 pip install pandas jupyter matplotlib seaborn
+
 3. Open Jupyter notebooks in stats/ for stats practice.
 
 4. Open .pbix files in Power BI Desktop for dashboard exploration.
